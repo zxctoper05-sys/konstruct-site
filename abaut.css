@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
+
+section {
+    margin: 0;
+}
+
+.scroll-down {
+    max-width: 1440px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.scroll-down img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Konstrut {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.Konstrut-ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.Konstrut-li {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Konstrut-li:hover {
+    color: #00A4E5;
+}
+
+.active {
+    color: #00A4E5;
+}
+
+.our-story {
+    max-width: 940px;
+    margin: 80px auto;
+}
+
+.our-one {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.our-one-p {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.our-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.our-left {
+    max-width: 405px;
+}
+
+.our-two-p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.our-two-p-down {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.our-tree {
+    display: flex;
+    gap: 20px;
+}
+
+.our-tree-img {
+    transition: transform .3s ease;
+}
+
+.our-tree-img:hover {
+    transform: translateY(-5px);
+}
+
+.our-capabilitties {
+    max-width: 940px;
+    margin: 100px auto;
+}
+
+.capabilitties-upp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.capabilitties-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.capabilitties-text {
+    max-width: 420px;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.capabilitties-bt {
+    padding: 12px 28px;
+    border: none;
+    background: #00A4E5;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.capabilitties-bt:hover {
+    transform: translateY(-2px);
+}
+
+.our-capabilitties-osn {
+    display: flex;
+    gap: 28px;
+}
+
+.osn-card {
+    flex: 1;
+    border: 1px solid #e6e6e6;
+    padding: 35px 25px;
+    transition: .3s ease;
+}
+
+.osn-card:hover {
+    transform: translateY(-5px);
+}
+
+.img-osn {
+    margin-bottom: 25px;
+}
+
+.osn-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.osn-text {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.get-in-touch {
+    max-width: 1440px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.get-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Newsletter-Signup {
+    width: 100%;
+    background: #000;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup {
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Signup-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.signup-container {
+    display: flex;
+    max-width: 520px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.signup-input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 13px;
+
+    border: 1px solid #222;
+    border-right: none;
+
+    background: #111;   
+    color: #fff;
+
+    border-radius: 6px 0 0 6px;
+}
+
+.signup-button {
+    padding: 14px 26px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    background: linear-gradient(90deg, #007bff, #00c6ff, #007bff);
+    background-size: 200% 200%;
+    animation: btnMove 3s linear infinite;
+}
+
+@keyframes btnMove {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+.footer {
+    background: #0d0d0d;
+    color: #aaa;
+    padding: 70px 80px 20px;
+}
+
+.footer-two {
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.footer-one {
+    max-width: 320px;
+}
+
+.footer-p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-img {
+    margin-bottom: 12px;
+}
+
+.footer-p-one {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.rd-ul {
+    list-style: none;
+}
+
+.rd-li {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #aaa;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.rd-li:hover {
+    color: #00A4E5;
+}
+
+.footer-tree {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+}
+
+.socials {
+    width: 120px;
+    opacity: 0.85;
+}
+
+.footer-fo {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    border-top: 1px solid #222;
+    padding-top: 18px;
+}
+
+.fo-p {
+    font-size: 12px;
+    color: #777;
+}
+
+.footer-logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #00A4E5;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: .8s ease;
+}
+
+@media (max-width: 1024px) {
+
+    .Konstrut,
+
+    .our-story,
+
+    .our-capabilitties {
+
+        padding-left: 25px;
+
+        padding-right: 25px;
+
+    }
+
+    .our-content {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .our-left {
+
+        max-width: 100%;
+
+    }
+
+    .our-tree {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+    }
+
+    .capabilitties-upp {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .our-capabilitties-osn {
+
+        flex-wrap: wrap;
+
+    }
+
+    .osn-card {
+
+        min-width: 280px;
+
+    }
+
+    .footer {
+
+        padding: 60px 30px 20px;
+
+    }
+
+    .footer-two {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 40px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .scroll-down {
+
+        height: 350px;
+
+    }
+
+    .Konstrut {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 20px;
+
+    }
+
+    .Konstrut-ul {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 16px;
+
+    }
+
+    .our-story {
+
+        margin: 60px auto;
+
+        padding: 0 20px;
+
+    }
+
+    .our-one {
+
+        margin-bottom: 40px;
+
+    }
+
+    .our-two-p {
+
+        font-size: 18px;
+
+    }
+
+    .our-tree {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 15px;
+
+    }
+
+    .our-tree-img {
+
+        width: 220px;
+
+        height: auto;
+
+    }
+
+    .our-capabilitties {
+
+        margin: 70px auto;
+
+        padding: 0 20px;
+
+    }
+
+    .capabilitties-title {
+
+        white-space: normal;
+
+    }
+
+    .capabilitties-text {
+
+        max-width: 100%;
+
+    }
+
+    .our-capabilitties-osn {
+
+        flex-direction: column;
+
+    }
+
+    .osn-card {
+
+        width: 100%;
+
+    }
+
+    .get-in-touch {
+
+        height: 280px;
+
+    }
+
+    .Newsletter-Signup {
+
+        padding: 60px 20px;
+
+    }
+
+    .signup-container {
+
+        flex-direction: column;
+
+        gap: 12px;
+
+        overflow: visible;
+
+    }
+
+    .signup-input {
+
+        width: 100%;
+
+        border-radius: 8px;
+
+        border: 1px solid #222;
+
+    }
+
+    .signup-button {
+
+        width: 100%;
+
+        border-radius: 8px;
+
+    }
+
+    .footer {
+
+        padding: 50px 20px 20px;
+
+        text-align: center;
+
+    }
+
+    .footer-one {
+
+        max-width: 100%;
+
+    }
+
+    .footer-two {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        gap: 25px;
+
+    }
+
+    .footer-tree {
+
+        justify-content: center;
+
+    }
+
+    .footer-fo {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+    }
+
+    .fo-p {
+
+        line-height: 1.6;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .scroll-down {
+
+        height: 260px;
+
+    }
+
+    .our-one-p,
+
+    .capabilitties-title,
+
+    .Signup-title {
+
+        font-size: 16px;
+
+    }
+
+    .our-two-p {
+
+        font-size: 16px;
+
+    }
+
+    .Konstrut-li {
+
+        font-size: 11px;
+
+    }
+
+    .our-tree-img {
+
+        width: 180px;
+
+    }
+
+    .osn-card {
+
+        padding: 25px 20px;
+
+    }
+
+}
